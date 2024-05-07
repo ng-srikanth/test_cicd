@@ -42,6 +42,9 @@ def sub(a,b):
         return a-b
     else:
         return b
+def multi(a,b):
+    return a * b
 add(3,3)
 sub(4,3)
+multi(2,3)
 count_even_odd(100)
