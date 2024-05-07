@@ -1,7 +1,6 @@
 from testcicd import count_even_odd,add,sub
 
 def test_count_even_odd():
-
     assert count_even_odd(100) == (50,50)
 
 def test_add():
