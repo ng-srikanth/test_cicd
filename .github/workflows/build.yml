@@ -7,7 +7,7 @@ on:
   pull_request:
     types: [opened, synchronize, reopened]
     branches:
-      - dev
+      - main
 jobs:
   sonarcloud:
     name: SonarCloud
