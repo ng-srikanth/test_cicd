@@ -32,4 +32,10 @@ def count_even_odd(n):
             pass
     return count_even,count_odd
 
+def add(a,b):
+    if a>0:
+        return a+b
+    else:
+        return b
+add(3,3)
 count_even_odd(100)
