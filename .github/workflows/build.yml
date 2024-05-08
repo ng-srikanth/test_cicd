@@ -46,7 +46,7 @@ jobs:
             aws-region: us-east-1
 
         - name: Archive Production Artifacts
-          run: zip -r lambda_function.zip testcicd.py
+          run: zip -r lambda_function.zip lambda_function.py
 
         - name: Deploy Lambda Function
           run: aws lambda update-function-code --function-name test_deployment --zip-file fileb://lambda_function.zip
