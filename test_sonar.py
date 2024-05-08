@@ -12,7 +12,7 @@
 
 #     assert multi(2,3) == 6
 import json
-from testcicd import lambda_handler
+from lambda_function import lambda_handler
 
 def test_lambda_handler():
     event = {}
