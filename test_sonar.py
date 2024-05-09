@@ -20,4 +20,4 @@ def test_lambda_handler():
     response = lambda_handler(event, context)
 
     assert response['statusCode'] == 200
-    assert json.loads(response['body']) == 'Hello from Lambda function we are testing deployment!'
+    assert json.loads(response['body']) == 'Hello from Lambda function we are testing deployment 123!'
